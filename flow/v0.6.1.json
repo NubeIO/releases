@@ -12,8 +12,8 @@
         "versions": [
           "v0.0.2"
         ],
-        "flowDependency": true,
-        "pluginDependency": "bacnetserver"
+        "flow_dependency": true,
+        "plugin_dependency": "bacnetserver"
       },
       {
         "name": "pi-gpio",
@@ -23,8 +23,8 @@
         "versions": [
           "v0.0.9"
         ],
-        "flowDependency": true,
-        "pluginDependency": "rubixio"
+        "flow_dependency": true,
+        "plugin_dependency": "rubixio"
       },
       {
         "name": "lora-serial",
@@ -34,8 +34,8 @@
         "versions": [
           "v0.0.1"
         ],
-        "flowDependency": true,
-        "pluginDependency": "lora"
+        "flow_dependency": true,
+        "plugin_dependency": "lora"
       }
     ]
   }
