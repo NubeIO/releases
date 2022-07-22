@@ -2,6 +2,7 @@
   "name": "flow-framework",
   "repo": "flow-framework",
   "release": "v0.6.1",
+  "port": 1660,
   "apps": [
     {
       "name": "bacnet-server-c",
@@ -20,6 +21,7 @@
       "name": "pi-gpio",
       "repo": "nubeio-rubix-app-pi-gpio-go",
       "description": "rubix compute io service",
+      "port": 5001,
       "products": [
         "rubix-compute-io"
       ],
