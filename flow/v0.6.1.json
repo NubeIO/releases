@@ -11,9 +11,7 @@
       "products": [
         "all"
       ],
-      "versions": [
-        "v0.0.2"
-      ],
+      "version":"v0.0.2",
       "flow_dependency": true,
       "plugin_dependency": "bacnetserver"
     },
@@ -25,9 +23,7 @@
       "products": [
         "rubix-compute-io"
       ],
-      "versions": [
-        "v0.0.9"
-      ],
+      "version":"v0.0.9",
       "flow_dependency": true,
       "plugin_dependency": "rubixio"
     },
