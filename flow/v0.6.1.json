@@ -3,7 +3,7 @@
   "name": "flow-framework",
   "repo": "flow-framework",
   "min_version": "v0.1.0",
-  "release": "v0.1.0",
+  "release": "v0.6.1",
   "port": 1660,
   "transport": "http",
   "products": [
