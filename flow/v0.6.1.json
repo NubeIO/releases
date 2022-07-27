@@ -69,7 +69,7 @@
     },
     {
       "name": "edge-28-driver",
-      "repo": "bbb-py-rest",
+      "repo": "bbb-rest-py",
       "description": "edge-28 service",
       "products": [
         "edge-28"
