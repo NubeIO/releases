@@ -16,9 +16,9 @@
         "amd64",
         "armv7"
       ],
-      "version": "v0.6.1",
-      "min_version": "v0.6.1",
-      "max_version": "v0.6.1",
+      "version": "v0.6.0",
+      "min_version": "v0.6.0",
+      "max_version": "v0.6.0",
       "flow_dependency": false,
       "plugin_dependency": [
       ],
