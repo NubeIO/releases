@@ -1,7 +1,6 @@
 {
   "uuid": "",
   "release": "v0.6.1",
-  "transport": "http",
   "apps": [
     {
       "name": "flow-framework",
@@ -11,7 +10,7 @@
       "transport": "http",
       "app_specfic_exec_start": "app -p 1660 -g /data/flow-framework -d data -prod",
       "products": [
-        "all"
+        "AllLinux"
       ],
       "arch": [
         "amd64",
@@ -34,7 +33,7 @@
       "transport": "udp",
       "app_specfic_exec_start": "",
       "products": [
-        "all"
+        "AllLinux"
       ],
       "arch": [
         "amd64",
@@ -59,7 +58,7 @@
       "transport": "http",
       "app_specfic_exec_start": "",
       "products": [
-        "rubix-compute-io"
+        "RubixComputeIO"
       ],
       "arch": [
         "armv7"
@@ -82,8 +81,9 @@
       "transport": "serial",
       "app_specfic_exec_start": "",
       "products": [
-        "rubix-compute-5",
-        "rubix-compute-io"
+        "RubixCompute",
+        "RubixCompute5",
+        "RubixComputeIO"
       ],
       "arch": [
         "armv7"
@@ -107,7 +107,7 @@
       "transport": "http",
       "app_specfic_exec_start": "",
       "products": [
-        "edge-28"
+        "Edge28"
       ],
       "arch": [
         "armv7"
@@ -129,11 +129,7 @@
       "transport": "http",
       "app_specfic_exec_start": "",
       "products": [
-        "all"
-      ],
-      "arch": [
-        "amd64",
-        "armv7"
+        "AllLinux"
       ],
       "version": "v2.7.4",
       "max_version": "v2.9.9",
@@ -152,7 +148,7 @@
       "plugin": "system",
       "description": "system plugin is used for scheduling and a generic network, device and points",
       "products": [
-        "all"
+        "AllLinux"
       ],
       "arch": [
         "amd64",
@@ -172,7 +168,7 @@
       "transport": "tcp",
       "description": "",
       "products": [
-        "all"
+        "AllLinux"
       ],
       "arch": [
         "amd64",
@@ -193,7 +189,7 @@
       "port": 47808,
       "transport": "udp",
       "products": [
-        "all"
+        "AllLinux"
       ],
       "arch": [
         "amd64",
@@ -213,7 +209,7 @@
       "port": 47809,
       "transport": "udp",
       "products": [
-        "all"
+        "AllLinux"
       ],
       "arch": [
         "amd64",
@@ -233,8 +229,8 @@
       "description": "nube lora protocol",
       "transport": "serial",
       "products": [
-        "rubix-compute-5",
-        "rubix-compute-io"
+        "RubixCompute5",
+        "RubixComputeIO"
       ],
       "arch": [
         "armv7"
@@ -254,7 +250,7 @@
       "port": 5000,
       "transport": "http",
       "products": [
-        "edge-28"
+        "Edge28"
       ],
       "arch": [
         "armv7"
@@ -274,7 +270,7 @@
       "port": 1883,
       "transport": "mqtt",
       "products": [
-        "all"
+        "AllLinux"
       ],
       "arch": [
         "amd64",
@@ -298,7 +294,7 @@
       "port": 1883,
       "transport": "mqtt",
       "products": [
-        "all"
+        "AllLinux"
       ],
       "arch": [
         "amd64",
