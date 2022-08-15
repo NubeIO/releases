@@ -122,7 +122,7 @@
       "description": "edge-28 service",
       "port": 5000,
       "transport": "http",
-      "app_specfic_exec_start": "",
+      "app_specfic_exec_start": "-p 5000 -g /data/edge-28-driver -d data -c config -i nubeio-edge-28-driver -s config.json -l logging.conf --prod",
       "service_working_directory": "",
       "custom_service_exec_start": "",
       "environment_vars":[],
