@@ -167,8 +167,7 @@
       ],
       "service_dependency": [
         "nodejs"
-      ],
-
+      ]
     }
   ],
   "plugins": [
