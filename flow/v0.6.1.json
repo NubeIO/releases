@@ -1,6 +1,6 @@
 {
   "uuid": "",
-  "release": "v0.6.6",
+  "release": "v0.6.1",
   "apps": [
     {
       "name": "flow-framework",
@@ -20,9 +20,9 @@
         "amd64",
         "armv7"
       ],
-      "version": "v0.6.6",
-      "min_version": "v0.6.6",
-      "max_version": "v0.6.6",
+      "version": "v0.6.1",
+      "min_version": "v0.6.1",
+      "max_version": "v0.6.1",
       "flow_dependency": false,
       "plugin_dependency": [
       ],
