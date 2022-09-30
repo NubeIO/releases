@@ -30,6 +30,7 @@
       ],
       "service_dependency": [
       ],
+      "is_zipball": false,
       "do_not_validate_arch": false,
       "move_extracted_file_to_name_app": true,
       "move_one_level_inside_file_to_outside": false
@@ -67,6 +68,7 @@
       "service_dependency": [
         "socat"
       ],
+      "is_zipball": false,
       "do_not_validate_arch": false,
       "move_extracted_file_to_name_app": true,
       "move_one_level_inside_file_to_outside": false
@@ -96,6 +98,7 @@
       "service_dependency": [
         "pigpi"
       ],
+      "is_zipball": false,
       "do_not_validate_arch": false,
       "move_extracted_file_to_name_app": true,
       "move_one_level_inside_file_to_outside": false
@@ -125,6 +128,7 @@
       "service_dependency": [
         "socat"
       ],
+      "is_zipball": false,
       "do_not_validate_arch": false,
       "move_extracted_file_to_name_app": true,
       "move_one_level_inside_file_to_outside": false
@@ -153,6 +157,7 @@
       ],
       "service_dependency": [
       ],
+      "is_zipball": false,
       "do_not_validate_arch": false,
       "move_extracted_file_to_name_app": true,
       "move_one_level_inside_file_to_outside": false
@@ -182,6 +187,7 @@
       "service_dependency": [
         "nodejs"
       ],
+      "is_zipball": true,
       "do_not_validate_arch": true,
       "move_extracted_file_to_name_app": false,
       "move_one_level_inside_file_to_outside": true
