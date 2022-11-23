@@ -12,11 +12,11 @@
       "attach_working_dir_on_exec_start": true,
       "environment_vars": [],
       "products": [
-        "Server",
-        "Edge28",
-        "RubixCompute",
-        "RubixCompute5",
-        "RubixComputeIO"
+        "cloud",
+        "edge-28",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
       ],
       "arch": [
         "amd64",
@@ -48,11 +48,11 @@
         "s=config.yml"
       ],
       "products": [
-        "Server",
-        "Edge28",
-        "RubixCompute",
-        "RubixCompute5",
-        "RubixComputeIO"
+        "cloud",
+        "edge-28",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
       ],
       "arch": [
         "amd64",
@@ -83,7 +83,7 @@
       "attach_working_dir_on_exec_start": true,
       "environment_vars": [],
       "products": [
-        "RubixComputeIO"
+        "rubix-compute-io"
       ],
       "arch": [
         "armv7"
@@ -112,8 +112,8 @@
       "attach_working_dir_on_exec_start": true,
       "environment_vars": [],
       "products": [
-        "RubixCompute5",
-        "RubixComputeIO"
+        "rubix-compute-5",
+        "rubix-compute-io"
       ],
       "arch": [
         "armv7"
@@ -143,7 +143,7 @@
       "attach_working_dir_on_exec_start": true,
       "environment_vars": [],
       "products": [
-        "Edge28"
+        "edge-28"
       ],
       "arch": [
         "armv7"
@@ -172,11 +172,11 @@
       "attach_working_dir_on_exec_start": false,
       "environment_vars": [],
       "products": [
-        "Server",
-        "Edge28",
-        "RubixCompute",
-        "RubixCompute5",
-        "RubixComputeIO"
+        "cloud",
+        "edge-28",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
       ],
       "version": "v2.7.4",
       "min_version": "v2.7.4",
@@ -199,11 +199,11 @@
       "plugin": "system",
       "description": "system plugin is used for scheduling and a generic network, device and points",
       "products": [
-        "Server",
-        "Edge28",
-        "RubixCompute",
-        "RubixCompute5",
-        "RubixComputeIO"
+        "cloud",
+        "edge-28",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
       ],
       "arch": [
         "amd64",
@@ -222,10 +222,10 @@
       "description": "used for storing histories",
       "transport": "na",
       "products": [
-        "Server",
-        "RubixCompute",
-        "RubixCompute5",
-        "RubixComputeIO"
+        "cloud",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
       ],
       "arch": [
         "amd64",
@@ -246,10 +246,10 @@
       "transport": "tcp",
       "description": "used to sync flow-framework data into postgres database",
       "products": [
-        "Server",
-        "RubixCompute",
-        "RubixCompute5",
-        "RubixComputeIO"
+        "cloud",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
       ],
       "arch": [
         "amd64",
@@ -270,11 +270,11 @@
       "port": 47808,
       "transport": "udp",
       "products": [
-        "Server",
-        "Edge28",
-        "RubixCompute",
-        "RubixCompute5",
-        "RubixComputeIO"
+        "cloud",
+        "edge-28",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
       ],
       "arch": [
         "amd64",
@@ -294,11 +294,11 @@
       "port": 47809,
       "transport": "udp",
       "products": [
-        "Server",
-        "Edge28",
-        "RubixCompute",
-        "RubixCompute5",
-        "RubixComputeIO"
+        "cloud",
+        "edge-28",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
       ],
       "arch": [
         "amd64",
@@ -318,8 +318,8 @@
       "description": "nube lora protocol",
       "transport": "serial",
       "products": [
-        "RubixCompute5",
-        "RubixComputeIO"
+        "rubix-compute-5",
+        "rubix-compute-io"
       ],
       "arch": [
         "armv7"
@@ -339,7 +339,7 @@
       "port": 5000,
       "transport": "http",
       "products": [
-        "Edge28"
+        "edge28"
       ],
       "arch": [
         "armv7"
@@ -359,10 +359,10 @@
       "port": 1883,
       "transport": "mqtt",
       "products": [
-        "Server",
-        "RubixCompute",
-        "RubixCompute5",
-        "RubixComputeIO"
+        "cloud",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
       ],
       "arch": [
         "amd64",
@@ -386,11 +386,11 @@
       "port": 1883,
       "transport": "mqtt",
       "products": [
-        "Server",
-        "Edge28",
-        "RubixCompute",
-        "RubixCompute5",
-        "RubixComputeIO"
+        "cloud",
+        "edge-28",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
       ],
       "arch": [
         "amd64",
@@ -404,7 +404,7 @@
       "port": 8888,
       "transport": "tcp",
       "products": [
-        "RubixComputeIO"
+        "rubix-compute-io"
       ],
       "arch": [
         "amd64",
