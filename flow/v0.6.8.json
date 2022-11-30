@@ -22,9 +22,8 @@
         "amd64",
         "armv7"
       ],
-      "version": "v0.6.8",
       "min_version": "v0.6.8",
-      "max_version": "v0.6.8",
+      "max_version": "",
       "flow_dependency": false,
       "plugin_dependency": [
       ],
@@ -58,7 +57,6 @@
         "amd64",
         "armv7"
       ],
-      "version": "v0.0.16",
       "min_version": "v0.0.16",
       "max_version": "v0.0.16",
       "flow_dependency": true,
@@ -88,7 +86,6 @@
       "arch": [
         "armv7"
       ],
-      "version": "v0.1.0",
       "min_version": "v0.1.0",
       "max_version": "v0.1.0",
       "flow_dependency": true,
@@ -118,7 +115,6 @@
       "arch": [
         "armv7"
       ],
-      "version": "v1.0.0",
       "min_version": "v1.0.0",
       "max_version": "v1.0.0",
       "flow_dependency": true,
@@ -148,7 +144,6 @@
       "arch": [
         "armv7"
       ],
-      "version": "v0.0.2",
       "min_version": "v0.0.2",
       "max_version": "v0.0.2",
       "flow_dependency": true,
@@ -178,7 +173,6 @@
         "rubix-compute-5",
         "rubix-compute-io"
       ],
-      "version": "v2.7.4",
       "min_version": "v2.7.4",
       "max_version": "v2.7.4",
       "flow_dependency": false,
