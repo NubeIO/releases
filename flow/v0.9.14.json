@@ -58,7 +58,7 @@
         "armv7"
       ],
       "min_version": "v0.0.16",
-      "max_version": "v0.0.16",
+      "max_version": "",
       "flow_dependency": true,
       "plugin_dependency": [
         "bacnetserver"
@@ -87,7 +87,7 @@
         "armv7"
       ],
       "min_version": "v0.1.0",
-      "max_version": "v0.1.0",
+      "max_version": "",
       "flow_dependency": true,
       "plugin_dependency": [
         "rubixio"
@@ -116,7 +116,7 @@
         "armv7"
       ],
       "min_version": "v1.0.0",
-      "max_version": "v1.0.0",
+      "max_version": "",
       "flow_dependency": true,
       "plugin_dependency": [
         "lora"
@@ -145,7 +145,7 @@
         "armv7"
       ],
       "min_version": "v0.0.2",
-      "max_version": "v0.0.2",
+      "max_version": "",
       "flow_dependency": true,
       "plugin_dependency": [
         "edge28"
@@ -174,7 +174,7 @@
         "rubix-compute-io"
       ],
       "min_version": "v2.7.4",
-      "max_version": "v2.7.4",
+      "max_version": "",
       "flow_dependency": false,
       "plugin_dependency": [
       ],
