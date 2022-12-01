@@ -22,7 +22,7 @@
         "amd64",
         "armv7"
       ],
-      "min_version": "v0.6.8",
+      "min_version": "",
       "max_version": "",
       "flow_dependency": false,
       "plugin_dependency": [
