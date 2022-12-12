@@ -8,7 +8,7 @@
       "description": "flow-framework",
       "port": 1660,
       "transport": "http",
-      "exec_start": "app -p 1660 -g <data_dir> -d data -prod",
+      "exec_start": "app -p 1660 -g <data_dir> -d data --prod",
       "attach_working_dir_on_exec_start": true,
       "environment_vars": [],
       "products": [
@@ -77,7 +77,7 @@
       "description": "rubix compute io service",
       "port": 5001,
       "transport": "http",
-      "exec_start": "app -p 5001 -r /data -a <data_dir_name> -d data -c config --prod server",
+      "exec_start": "app -p 5001 -r <root_dir> -a <data_dir_name> -d data -c config --prod server",
       "attach_working_dir_on_exec_start": true,
       "environment_vars": [],
       "products": [
@@ -185,6 +185,34 @@
       "do_not_validate_arch": true,
       "move_extracted_file_to_name_app": false,
       "move_one_level_inside_file_to_outside": true
+    },
+    {
+      "name": "rubix-edge-wires",
+      "repo": "rubix-edge-wires",
+      "description": "A backend server for flow engine",
+      "port": 1665,
+      "transport": "http",
+      "exec_start": "app -p 1665 -r <root_dir> -a <data_dir_name> -d data -c config --prod server",
+      "attach_working_dir_on_exec_start": true,
+      "environment_vars": [],
+      "products": [
+        "cloud",
+        "edge-28",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
+      ],
+      "min_version": "v0.1.6",
+      "max_version": "",
+      "flow_dependency": false,
+      "plugin_dependency": [
+      ],
+      "service_dependency": [
+      ],
+      "is_zipball": false,
+      "do_not_validate_arch": false,
+      "move_extracted_file_to_name_app": true,
+      "move_one_level_inside_file_to_outside": false
     }
   ],
   "plugins": [
