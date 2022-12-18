@@ -202,7 +202,7 @@
         "rubix-compute-5",
         "rubix-compute-io"
       ],
-      "min_version": "v0.1.7",
+      "min_version": "v0.1.9",
       "max_version": "",
       "flow_dependency": false,
       "plugin_dependency": [
