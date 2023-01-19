@@ -82,7 +82,7 @@
       "environment_vars": [],
       "products": [
         "rubix-compute",
-        "rubix-compute-io",
+        "rubix-compute-io"
          
       ],
       "arch": [
