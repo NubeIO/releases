@@ -81,7 +81,9 @@
       "attach_working_dir_on_exec_start": true,
       "environment_vars": [],
       "products": [
-        "rubix-compute-io"
+        "rubix-compute",
+        "rubix-compute-io",
+         
       ],
       "arch": [
         "armv7"
