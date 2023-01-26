@@ -434,6 +434,20 @@
         "amd64",
         "armv7"
       ]
+    },
+    {
+      "name": "openvpn",
+      "service_name": "openvpn@client.service",
+      "description": "a openvpn client",
+      "port": 0,
+      "transport": "udp",
+      "products": [
+        "cloud",
+        "edge-28",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
+      ]
     }
   ]
 }
