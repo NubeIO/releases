@@ -160,35 +160,6 @@
       "move_one_level_inside_file_to_outside": false
     },
     {
-      "name": "rubix-wires",
-      "repo": "wires-builds",
-      "description": "flow based programming engine",
-      "port": 1313,
-      "transport": "http",
-      "exec_start": "/usr/bin/npm run prod:start --prod -- --datadir <data_dir>/data --envFile /data/rubix-wires/config/.env",
-      "attach_working_dir_on_exec_start": false,
-      "environment_vars": [],
-      "products": [
-        "cloud",
-        "edge-28",
-        "rubix-compute",
-        "rubix-compute-5",
-        "rubix-compute-io"
-      ],
-      "min_version": "v2.8.0",
-      "max_version": "",
-      "flow_dependency": false,
-      "plugin_dependency": [
-      ],
-      "service_dependency": [
-        "nodejs"
-      ],
-      "is_zipball": true,
-      "do_not_validate_arch": true,
-      "move_extracted_file_to_name_app": false,
-      "move_one_level_inside_file_to_outside": true
-    },
-    {
       "name": "rubix-edge-wires",
       "repo": "rubix-edge-wires",
       "description": "A backend server for flow engine",
