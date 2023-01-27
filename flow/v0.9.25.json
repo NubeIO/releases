@@ -58,7 +58,7 @@
         "armv7"
       ],
       "min_version": "v0.0.26",
-      "max_version": "",
+      "max_version": "v0.0.27",
       "flow_dependency": true,
       "plugin_dependency": [
         "bacnetserver"
