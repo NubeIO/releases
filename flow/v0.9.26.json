@@ -29,14 +29,15 @@
       ],
       "service_dependency": [
       ],
+      "match_name": true,
       "is_zipball": false,
       "do_not_validate_arch": false,
       "move_extracted_file_to_name_app": true,
       "move_one_level_inside_file_to_outside": false
     },
     {
-      "name": "bacnet-server-driver",
-      "repo": "bacnet-server-c",
+      "name": "driver-bacnet",
+      "repo": "driver-bacnet",
       "description": "a bacnet server",
       "port": 47808,
       "transport": "udp",
@@ -66,15 +67,16 @@
       "service_dependency": [
         "socat"
       ],
+      "match_name": false,
       "is_zipball": false,
       "do_not_validate_arch": false,
       "move_extracted_file_to_name_app": true,
       "move_one_level_inside_file_to_outside": false
     },
     {
-      "name": "rubix-io-driver",
-      "repo": "nubeio-rubix-app-pi-gpio-go",
-      "description": "rubix compute io service",
+      "name": "driver-rubix-compute-io",
+      "repo": "driver-rubix-compute-io",
+      "description": "rubix compute io driver",
       "port": 5001,
       "transport": "http",
       "exec_start": "app -p 5001 -r <root_dir> -a <data_dir_name> -d data -c config --prod server",
@@ -83,7 +85,6 @@
       "products": [
         "rubix-compute",
         "rubix-compute-io"
-         
       ],
       "arch": [
         "armv7"
@@ -97,15 +98,16 @@
       "service_dependency": [
         "pigpi"
       ],
+      "match_name": false,
       "is_zipball": false,
       "do_not_validate_arch": false,
       "move_extracted_file_to_name_app": true,
       "move_one_level_inside_file_to_outside": false
     },
     {
-      "name": "lora-driver",
-      "repo": "nubeio-rubix-app-lora-serial-py",
-      "description": "rubix compute io service",
+      "name": "driver-lora",
+      "repo": "driver-lora",
+      "description": "lora driver",
       "transport": "serial",
       "exec_start": "app -p <port> -g <data_dir> -d data -c config -i <identifier> -s config.json -l logging.conf --prod",
       "attach_working_dir_on_exec_start": true,
@@ -126,18 +128,19 @@
       "service_dependency": [
         "socat"
       ],
+      "match_name": false,
       "is_zipball": false,
       "do_not_validate_arch": false,
       "move_extracted_file_to_name_app": true,
       "move_one_level_inside_file_to_outside": false
     },
     {
-      "name": "edge-28-driver",
-      "repo": "bbb-rest-py",
-      "description": "edge-28 service",
+      "name": "driver-edge-28",
+      "repo": "driver-edge-28",
+      "description": "edge-28 driver",
       "port": 5000,
       "transport": "http",
-      "exec_start": "-p 5000 -g <data_dir> -d data -c config -i nubeio-edge-28-driver -s config.json -l logging.conf --prod",
+      "exec_start": "app -p 5000 -g <data_dir> -d data -c config -i <identifier> -s config.json -l logging.conf --prod",
       "attach_working_dir_on_exec_start": true,
       "environment_vars": [],
       "products": [
@@ -154,6 +157,7 @@
       ],
       "service_dependency": [
       ],
+      "match_name": false,
       "is_zipball": false,
       "do_not_validate_arch": false,
       "move_extracted_file_to_name_app": true,
@@ -182,6 +186,7 @@
       ],
       "service_dependency": [
       ],
+      "match_name": true,
       "is_zipball": false,
       "do_not_validate_arch": false,
       "move_extracted_file_to_name_app": true,
@@ -334,13 +339,13 @@
       "port": 5000,
       "transport": "http",
       "products": [
-        "edge28"
+        "edge-28"
       ],
       "arch": [
         "armv7"
       ],
       "app_dependency": [
-        "edge-28-driver"
+        "driver-edge-28"
       ],
       "plugin_dependency": [
       ],
@@ -411,13 +416,17 @@
       "service_name": "openvpn@client.service",
       "description": "a openvpn client",
       "port": 0,
-      "transport": "udp",
+      "transport": "tcp",
       "products": [
         "cloud",
         "edge-28",
         "rubix-compute",
         "rubix-compute-5",
         "rubix-compute-io"
+      ],
+      "arch": [
+        "amd64",
+        "armv7"
       ]
     }
   ]
