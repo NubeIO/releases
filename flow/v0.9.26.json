@@ -113,6 +113,7 @@
       "attach_working_dir_on_exec_start": true,
       "environment_vars": [],
       "products": [
+        "rubix-compute",
         "rubix-compute-5",
         "rubix-compute-io"
       ],
