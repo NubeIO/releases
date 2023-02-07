@@ -430,5 +430,14 @@
         "armv7"
       ]
     }
+  ],
+  "firmware": [
+    {
+      "name": "io-16",
+      "repo": "rubix-io-fw",
+      "description": "firmware for the io-16",
+      "min_version": "v3.0",
+      "max_version": ""
+    }
   ]
 }
