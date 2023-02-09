@@ -60,12 +60,10 @@
       ],
       "min_version": "v0.0.26",
       "max_version": "",
-      "flow_dependency": true,
+      "flow_dependency": false,
       "plugin_dependency": [
-        "bacnetserver"
       ],
       "service_dependency": [
-        "socat"
       ],
       "match_name": false,
       "is_zipball": false,
