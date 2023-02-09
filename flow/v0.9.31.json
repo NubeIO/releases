@@ -287,31 +287,6 @@
       ]
     },
     {
-      "name": "bacnet-server",
-      "plugin": "bacnetserver",
-      "description": "nube bacnet server",
-      "port": 47809,
-      "transport": "udp",
-      "products": [
-        "cloud",
-        "edge-28",
-        "rubix-compute",
-        "rubix-compute-5",
-        "rubix-compute-io"
-      ],
-      "arch": [
-        "amd64",
-        "armv7"
-      ],
-      "app_dependency": [
-        "bacnet-server-driver"
-      ],
-      "plugin_dependency": [
-      ],
-      "service_dependency": [
-      ]
-    },
-    {
       "name": "lora",
       "plugin": "lora",
       "description": "nube lora protocol",
