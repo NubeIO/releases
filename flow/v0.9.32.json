@@ -386,11 +386,63 @@
   ],
   "services": [
     {
+      "name": "lorawan-gateway",
+      "service_name": "lorawan-gateway.service",
+      "description": "LoraWAN Gateway",
+      "port": 0,
+      "transport": "",
+      "products": [
+        "cloud",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
+      ],
+      "arch": [
+        "amd64",
+        "armv7"
+      ]
+    },
+    {
+      "name": "lorawan-server",
+      "service_name": "lorawan-server.service",
+      "description": "LoraWAN Server",
+      "port": 0,
+      "transport": "",
+      "products": [
+        "cloud",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
+      ],
+      "arch": [
+        "amd64",
+        "armv7"
+      ]
+    },
+    {
       "name": "mqtt-broker",
       "service_name": "mosquitto.service",
       "description": "a local mqtt broker",
       "port": 1883,
       "transport": "mqtt",
+      "products": [
+        "cloud",
+        "edge-28",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
+      ],
+      "arch": [
+        "amd64",
+        "armv7"
+      ]
+    },
+    {
+      "name": "openvpn",
+      "service_name": "openvpn@client.service",
+      "description": "a openvpn client",
+      "port": 0,
+      "transport": "tcp",
       "products": [
         "cloud",
         "edge-28",
@@ -410,24 +462,6 @@
       "port": 8888,
       "transport": "tcp",
       "products": [
-        "rubix-compute-io"
-      ],
-      "arch": [
-        "amd64",
-        "armv7"
-      ]
-    },
-    {
-      "name": "openvpn",
-      "service_name": "openvpn@client.service",
-      "description": "a openvpn client",
-      "port": 0,
-      "transport": "tcp",
-      "products": [
-        "cloud",
-        "edge-28",
-        "rubix-compute",
-        "rubix-compute-5",
         "rubix-compute-io"
       ],
       "arch": [
