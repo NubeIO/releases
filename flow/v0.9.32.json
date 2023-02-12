@@ -163,6 +163,38 @@
       "move_one_level_inside_file_to_outside": false
     },
     {
+      "name": "lorawan-modbus-bridge",
+      "repo": "lorawan-modbus-bridge",
+      "description": "LoRaWAN Modbus Bridge",
+      "port": 1111,
+      "transport": "http",
+      "exec_start": "app -p 1111 -g /data/lorawan-modbus-bridge -d data -c config -i N/A -s config.json -l logging.conf --prod",
+      "attach_working_dir_on_exec_start": true,
+      "environment_vars": [],
+      "products": [
+        "cloud",
+        "rubix-compute",
+        "rubix-compute-5",
+        "rubix-compute-io"
+      ],
+      "arch": [
+        "amd64",
+        "armv7"
+      ],
+      "min_version": "v1.0.0",
+      "max_version": "",
+      "flow_dependency": true,
+      "plugin_dependency": [
+      ],
+      "service_dependency": [
+      ],
+      "match_name": false,
+      "is_zipball": false,
+      "do_not_validate_arch": false,
+      "move_extracted_file_to_name_app": true,
+      "move_one_level_inside_file_to_outside": false
+    },
+    {
       "name": "rubix-edge-wires",
       "repo": "rubix-edge-wires",
       "description": "A backend server for flow engine",
